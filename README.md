@@ -22,4 +22,7 @@
 ### 3. DFS & BFS (깊이 우선 탐색 & 너비 우선 탐색)
 
 * 기초 자료구조: [스택](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/stack.cpp), [큐](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/queue.cpp), 재귀함수
-* 최대공약수 계산(유클리드 호제법) => 재귀함수 사용
+* DFS, BFS
+* 최대공약수 계산 (유클리드 호제법) / 재귀함수
+* 음료수 얼려 먹기 / DFS
+* 미로 찾기 / BFS
