@@ -7,22 +7,26 @@
 
 ### 1. Greedy Algorithm (그리디 알고리즘)
 
-* 거스름돈 문제
-* 1이 될 때까지
-* 곱하기 혹은 더하기
-* 모험가 길드
+* Q) 거스름돈 문제
+* Q) 1이 될 때까지
+* Q) 곱하기 혹은 더하기
+* Q) 모험가 길드
 
 ### 2. Implementation Algorithm (구현)
 
-* 상하좌우
-* 시각
-* 왕실의 나이트
-* 문자열 재정렬
+* Q) 상하좌우
+* Q) 시각
+* Q) 왕실의 나이트
+* Q) 문자열 재정렬
 
 ### 3. DFS & BFS (깊이 우선 탐색 & 너비 우선 탐색)
 
 * 기초 자료구조: [스택](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/stack.cpp), [큐](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/queue.cpp), 재귀함수
 * DFS, BFS
-* 최대공약수 계산 (유클리드 호제법) / 재귀함수
-* 음료수 얼려 먹기 / DFS
-* 미로 찾기 / BFS
+* Q) 최대공약수 계산 (유클리드 호제법) / 재귀함수
+* Q) 음료수 얼려 먹기 / DFS
+* Q) 미로 찾기 / BFS
+
+### 4. Sorting (정렬)
+* 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬
+* Q)두 배열의 원소 교체
