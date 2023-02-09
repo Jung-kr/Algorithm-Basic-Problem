@@ -7,10 +7,10 @@
 
 ### 1. Greedy Algorithm (그리디 알고리즘)
 
-* Cp1) 거스름돈 문제
-* Cp2) 1이 될 때까지
-* Cp3) 곱하기 혹은 더하기
-* Cp4) 모험가 길드
+* Cp1) [거스름돈 문제](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Greedy/greedycp1.cpp)
+* Cp2) [1이 될 때까지](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Greedy/greedycp2.cpp)
+* Cp3) [곱하기 혹은 더하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Greedy/greedycp3.cpp)  // 문자열 다루기(문자열 형변환)
+* Cp4) [모험가 길드](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Greedy/greedycp4.cpp)  // vector를 이용한 배열 입력 및 정렬(sort) 
 
 ### 2. Implementation Algorithm (구현)
 
