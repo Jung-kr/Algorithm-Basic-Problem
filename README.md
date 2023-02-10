@@ -22,10 +22,11 @@
 ### 3. DFS & BFS (깊이 우선 탐색 & 너비 우선 탐색)
 
 * 기초 자료구조: [스택](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/stack.cpp), [큐](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/queue.cpp), 재귀함수
-* DFS, BFS
+* [DFS](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/DFS.cpp)  // 재귀 함수를 이용한 dfs
+* [BFS](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/BFS.cpp)  // 큐를 이용한 bfs 
 * Cp1) 최대공약수 계산 (유클리드 호제법) / 재귀함수
-* Cp2) 음료수 얼려 먹기 / DFS
-* Cp3) 미로 찾기 / BFS
+* Cp2) [음료수 얼려 먹기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/dfscp1.cpp)  // 10231로 입력했을 때 scanf로 정수 1자리씩 입력 받기, 2차원에서의 dfs
+* Cp3) [미로 찾기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DFS%20%26%20BFS/bfscp1.cpp)  // 큐를 이용한 BFS, 2차원에서의 bfs, 큐에 (x, y)쌍 통째로 넣기 pair 
 
 ### 4. Sorting (정렬)
 * 기초 정렬: [선택 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/selectionhttps://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/sortingcp1sort.cpp), [삽입 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/insertionsort.cpp), [퀵 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/quicksort.cpp), [계수 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/countingsort.cpp)
