@@ -14,10 +14,10 @@
 
 ### 2. Implementation Algorithm (구현)
 
-* Cp1) 상하좌우
-* Cp2) 시각
-* Cp3) 왕실의 나이트
-* Cp4) 문자열 재정렬
+* Cp1) [상하좌우](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Implementation/implecp1.cpp)  // 2차원 공간에서의 방향 벡터 문제 기본 세팅,  R R R U D D 하나의 문자열로 입력, 범위가 벗어난다면 continue 이용
+* Cp2) [시각](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Implementation/implecp2.cpp)  // 완전탐색문제 (구현)
+* Cp3) [왕실의 나이트](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Implementation/implecp3.cpp)  // implecp1.cpp 참고 
+* Cp4) [문자열 재정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Implementation/implecp4.cpp)  // 입력이 K1KA5CB7일 때, 알파벳은 별도의 배열(vector)에 저장, isalpha 함수(헤더 <cctype>) / 덧셈으로 형변환 할 때는 -'0'으로 해야됨. +'0'으로 하면 아스키코드로 계산 
 
 ### 3. DFS & BFS (깊이 우선 탐색 & 너비 우선 탐색)
 
