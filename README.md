@@ -32,7 +32,7 @@
 * 기초 정렬: [선택 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/selectionhttps://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/sortingcp1sort.cpp), [삽입 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/insertionsort.cpp), [퀵 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/quicksort.cpp), [계수 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/countingsort.cpp)
 * Cp1) [두 배열의 원소 교체](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Sorting/sortingcp1)  // vector를 이욯한 배열 입력,  내림차순 정렬(콜백 처리), swap
 
-  ### 4. Sorting (정렬)
+### 5. Binary Search (이진 탐색)
 * 기초: [이진 탐색](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/binarySearch.cpp)  // binarySearch 함수가 vector를 받을 때 &로 받아야 됨. 
 * [bound 함수](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/bound.cpp)  // lower_bound, upper_bound, 값이 특정 범위에 속하는 데이터 개수 구할 때 사용할 수 있음  
 * Cp1) [떡볶이 떡 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp1)  // max_element(), min_element(): 구간 안에서(배열이나 벡터 등) 최대, 최소값을 구하는 함수
