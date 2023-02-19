@@ -1,0 +1,28 @@
+// dp 탑다운 방식: 재귀함수 이용 
+
+#include <iostream>
+
+using namespace std;
+
+// 한 번 계산된 결과를 메모이제이션(Memoization)하기 위한 배열
+long long d[100];
+
+long long fibo(int x) {
+	
+	// 종료 조건 
+	if(x == 1 || x == 2) return 1;
+	
+	// 계산한 적 있는 문제라면 그대로 반환
+	if(d[x] != 0) return d[x]; 
+	
+	// 계산한 적이 없을 경우 
+	d[x] = fibo(x - 1) + fibo(x - 2);
+	return d[x];
+}
+
+int main() {
+	
+	cout << fibo(50) << '\n';
+	
+	return 0;
+}
