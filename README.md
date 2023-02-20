@@ -37,3 +37,12 @@
 * [bound 함수](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/bound.cpp)  // lower_bound, upper_bound, 값이 특정 범위에 속하는 데이터 개수 구할 때 사용할 수 있음  
 * Cp1) [떡볶이 떡 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp1)  // max_element(), min_element(): 구간 안에서(배열이나 벡터 등) 최대, 최소값을 구하는 함수
 * Cp2) [정렬된 배열에서 특정 수의 개수 구하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp2)  // bound 함수(lower_bound, upper_bound), 값이 특정 범위에 속하는 데이터 개수 구할 때 사용하는 문제 
+  
+### 6. Dynamic Algorithm (다이나믹 알고리즘)
+* 기초: [탑다운 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciTopdown)  // 재귀함수 이용 , [바텀업 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciBottomup)  // 반복문 이용
+* Cp1) [개미 전사](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp1.cpp)
+* Cp2) [1로 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp2.cpp)  // dp 바텀업 방식 (반복문 이용)
+* Cp3) [효울적인 화폐 구성](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp3.cpp)  // vector 테이블 생성 및 특정 숫자로 초기화, 버텀업 dp(반복문) 
+* Cp4) [금광](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp4.cpp)  // 2차원 배열에서의 dp, max 3개 이상: max({a, b, c]) 
+* Cp5) [병사 배치하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp5.cpp)  // LIS 알고리즘: 가장 긴 증가하는 부분 수열: 모든 0<=i<j에 대해 D[i] = max(D[i], D[j] + 1) if array[j] < array[i], 배열을 뒤집는 reverse 함수 
+  
