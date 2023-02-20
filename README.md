@@ -38,7 +38,7 @@
 * Cp1) [떡볶이 떡 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp1)  // max_element(), min_element(): 구간 안에서(배열이나 벡터 등) 최대, 최소값을 구하는 함수
 * Cp2) [정렬된 배열에서 특정 수의 개수 구하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp2)  // bound 함수(lower_bound, upper_bound), 값이 특정 범위에 속하는 데이터 개수 구할 때 사용하는 문제 
   
-### 6. Dynamic Algorithm (다이나믹 알고리즘)
+### 6. Dynamic Programming (다이나믹 프로그래밍)
 * 기초: [탑다운 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciTopdown)  // 재귀함수 이용 , [바텀업 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciBottomup)  // 반복문 이용
 * Cp1) [개미 전사](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp1.cpp)
 * Cp2) [1로 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp2.cpp)  // dp 바텀업 방식 (반복문 이용)
