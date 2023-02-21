@@ -46,3 +46,7 @@
 * Cp4) [금광](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp4.cpp)  // 2차원 배열에서의 dp, max 3개 이상: max({a, b, c]) 
 * Cp5) [병사 배치하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp5.cpp)  // LIS 알고리즘: 가장 긴 증가하는 부분 수열: 모든 0<=i<j에 대해 D[i] = max(D[i], D[j] + 1) if array[j] < array[i], 배열을 뒤집는 reverse 함수 
   
+### 7. Shortest Path (최단 경로 알고리즘)
+* 기초: [다익스트라 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/dijkstra.cpp)  // 배열 통째로 초기화 fill_n(변경하려는 원소의 범위 시작주소, 변경하려는 원소 갯수, 변경 값) , [플로이드 워셜](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/floydWarshall.cpp)  // 3중 반복문을 이용하므로 보콘 노드가 500개 이하일 때 사용, 2차원 배열 특정 값으로 초기화하는 fill 
+* Cp1) [전보](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/spcp1.cpp)  // 다익스트라 알고리즘 문제 
+* Cp2) [미래 도시](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/spcp2.cpp)  // 플로이드 워셜 알고리즘 문제 
