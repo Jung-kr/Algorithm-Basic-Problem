@@ -50,3 +50,10 @@
 * 기초: [다익스트라 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/dijkstra.cpp)  // 배열 통째로 초기화 fill_n(변경하려는 원소의 범위 시작주소, 변경하려는 원소 갯수, 변경 값) , [플로이드 워셜](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/floydWarshall.cpp)  // 3중 반복문을 이용하므로 보콘 노드가 500개 이하일 때 사용, 2차원 배열 특정 값으로 초기화하는 fill 
 * Cp1) [전보](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/spcp1.cpp)  // 다익스트라 알고리즘 문제 
 * Cp2) [미래 도시](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Shortest%20Path/spcp2.cpp)  // 플로이드 워셜 알고리즘 문제 
+
+### 8. Graph (기타 그래프)
+* [서로소 집합 자료 구조](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/disjointSet.cpp)
+* [개선된 서로소 집합 자료 구조](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/disjointSet2.cpp)  // 찾기(Find) 함수 개선 => 찾기 함수를 재귀적으로 호출한 뒤 부모 테이블 값을 바로 갱신 
+* ex) [서로소 집합을 활용한 사이클 판별](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/graphcp1.cpp)
+* [크루스칼 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/kruskal.cpp)  // 최소 신장 트리를 찾는 알고리즘, vector<pair<int, pair<int, int> > > edges;
+* [위상 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/topologySort.cpp)  // 사이클이 없는 방향 그래프의 모든 노드를 방향성에 거르르지 않도록 순서대로 나열한 것
