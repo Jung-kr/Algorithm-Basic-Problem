@@ -64,3 +64,10 @@
 * [에라토스테네스의 체](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/sieveOfEratos.cpp)  // 특정한 수의 범위 안에 존재하는 모든 소수를 찾을 때 사용, vector<int> arr(n+1, true); true로 초기화된 1001개의 원소를 가지는 arr 벡터 생성 
 * [특정한 합을 가지는 부분 연속 수열 찾기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/twoPointer.cpp)  // 투 포인터 문제
 * [구간 합 빠르게 계산하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/prefixSum.cpp)  // 구간 합 구할 때 많은 쿼리가 주어지는 경우 상수 시간에 계산 가능 
+  
+### 10.
+* [우선순위 큐와 힙](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Etc/heap.cpp)  // 우선순위 큐 라이브러리 사용 priority_queue, C++은 내림차순 정렬이기 때문에 오름차순 정렬을 하기 위해서는 -를 붙혀야 됨 
+* 트리의 순회
+* 벨만 포드 알고리즘 
+* 바이너리 인덱스 트리
+* 최소 공통 조상 알고리즘
