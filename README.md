@@ -57,3 +57,10 @@
 * ex) [서로소 집합을 활용한 사이클 판별](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/graphcp1.cpp)
 * [크루스칼 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/kruskal.cpp)  // 최소 신장 트리를 찾는 알고리즘, vector<pair<int, pair<int, int> > > edges;
 * [위상 정렬](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Graph/topologySort.cpp)  // 사이클이 없는 방향 그래프의 모든 노드를 방향성에 거르르지 않도록 순서대로 나열한 것
+  
+### 9. 기타 알고리즘
+* [소수 판별 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/isPrimeNum.cpp)  // 기본적인 소수 판별, O(X)의 시간복잡도
+* [개선된 소수 판별 알고리즘](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/isPrimeNum2.cpp)  // 약수의 성질에 따른 개선된 소수 판별(X의 제곱근가지만 확인), O(루트X)의 시간복잡도 
+* [에라토스테네스의 체](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/sieveOfEratos.cpp)  // 특정한 수의 범위 안에 존재하는 모든 소수를 찾을 때 사용, vector<int> arr(n+1, true); true로 초기화된 1001개의 원소를 가지는 arr 벡터 생성 
+* [특정한 합을 가지는 부분 연속 수열 찾기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/twoPointer.cpp)  // 투 포인터 문제
+* [구간 합 빠르게 계산하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Algorithm/prefixSum.cpp)  // 구간 합 구할 때 많은 쿼리가 주어지는 경우 상수 시간에 계산 가능 
