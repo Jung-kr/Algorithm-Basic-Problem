@@ -1,5 +1,3 @@
-// 찾기(Find) 함수 개선 => 찾기 함수를 재귀적으로 호출한 뒤 부모 테이블 값을 바로 갱신 
-
 #include <iostream>
 #include <algorithm>
 
