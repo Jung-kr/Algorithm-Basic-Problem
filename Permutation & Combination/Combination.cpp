@@ -2,7 +2,7 @@
 #define n 4
 #define r 3
 
-// nCr: 순열 (순서x, 중복x)
+// nCr: 조합 (순서x, 중복x)
 
 using namespace std;
 
