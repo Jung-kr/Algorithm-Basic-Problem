@@ -77,4 +77,7 @@
 * 중복 순열  // nπr: 순서를 따지고, 중복을 허용한다. (순서O, 중복O)
 * 조합  // nCr: 순서를 따지지 않고, 중복을 허용하지 않는다. (순서X, 중복X)
 * 중복 조합  // nHr: 순서를 따지지 않고, 중복을 허용한다. (순서X, 중복O)
-![image](https://user-images.githubusercontent.com/81340804/226238846-a11f920b-3352-45c9-a8ae-944f22cb8ca5.png)
+![image](https://user-images.githubusercontent.com/81340804/226238846-a11f920b-3352-45c9-a8ae-944f22cb8ca5.png)  
+  
+*조합 경우의 수 구하기 nCr = n-1Cr-1+n-1Cr  // [다리 놓기](https://www.acmicpc.net/problem/1010)
+=> 직관적 증명: 사과 5개(12345)가 있고 그 중 3개를 뽑는다. 사과3을 포함하는 경우 4C2, 사과3을 포함하지 않는 경우 4C3
