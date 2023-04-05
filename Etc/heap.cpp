@@ -11,6 +11,7 @@ vector<int> arr;
 
 void heapSort(vector<int>& arr) {
 	priority_queue<int> h;
+	//priority_queue<int, vector<int>, greater<int> > h	// 이렇게 정렬 기준 오름차순으로 변경하는 방법도 있음
 	
 	// 배열의 원소 차례대로 우선순위 큐에 삽입 
 	for(int i = 0 ; i < arr.size() ; i++) {
