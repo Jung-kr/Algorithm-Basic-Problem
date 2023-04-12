@@ -6,9 +6,9 @@
 
 using namespace std;
 
-int cArr[r] = { 0, };
+int cArr[r] = { 0, };	// 조합을 넣기 위한 임시 배열
 
-void combination(int depth, int next){
+void combination(int depth, int next){	// depth는 조합 배열의 인덱스, next는 배열에 들어갈 값
     if(depth == r){
     	for(int i = 0 ; i < r ; i++) {
     		cout << cArr[i] << ' ';
