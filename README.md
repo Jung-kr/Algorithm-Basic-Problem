@@ -80,4 +80,18 @@
 ![image](https://user-images.githubusercontent.com/81340804/226238846-a11f920b-3352-45c9-a8ae-944f22cb8ca5.png)  
   
 *조합 경우의 수 구하기 nCr = n-1Cr-1+n-1Cr  // [다리 놓기](https://www.acmicpc.net/problem/1010)
-=> 직관적 증명: 사과 5개(12345)가 있고 그 중 3개를 뽑는다. 사과3을 포함하는 경우 4C2, 사과3을 포함하지 않는 경우 4C3
+=> 직관적 증명: 사과 5개(12345)가 있고 그 중 3개를 뽑는다. 사과3을 포함하는 경우 4C2, 사과3을 포함하지 않는 경우 4C3  
+  
+### 12. 연관 컨테이너 (map, set, hash_map, hash_set)  
+* 시퀀스 컨테이너: vector, list, deque => 많지 않은 자료를 보관하고 검색 속도가 중요한 경우에 사용  
+* 연관 컨테이너: map, set, hash_map, hash_set  
+- 대량의 자료를 보관하고 검색을 빠르게 하고 싶을 때 사용  
+- 어떠한 Key와 짝을 이루어 자료를 보관 => 자료를 넣고 빼고 찾을 때 Key 필요  
+- Key로 사용하는 값이 중복되지 않을 때 사용  
+- 중복되는 Key를 사용할 때는 컨테이너의 앞에 'multi'를 붙인 multi_map, multi_set, hash_multimap, hash_multiset을 사용  
+- map, set: 정렬된 상태로 자료 저장, hash_map, hash_set: 정렬이 필요 없으며 빠른 검색을 원할 때  
+
+*[map](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/AssociateContainer/map.cpp): 탐색 시간복잡도 O(log n)
+*[hash map](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/AssociateContainer/hashmap.cpp): 탐색 시간복잡도 O(1)
+
+  
