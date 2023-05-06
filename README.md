@@ -92,6 +92,8 @@ Key로 사용하는 값이 중복되지 않을 때 사용
 map, set: 정렬된 상태로 자료 저장, hash_map, hash_set: 정렬이 필요 없으며 빠른 검색을 원할 때  
   
 * [map](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/AssociateContainer/map.cpp): 탐색 시간복잡도 O(log n)  
-* [hash map](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/AssociateContainer/hashmap.cpp): 탐색 시간복잡도 O(1)
-
+* [hash map](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/AssociateContainer/hashmap.cpp): 탐색 시간복잡도 O(1)  
+  
+### 13. 문자열  
+str.erase(str.begin()); //문자열 "abz'라면 "a"삭제 => "bz"
   
