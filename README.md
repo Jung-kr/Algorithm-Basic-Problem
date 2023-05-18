@@ -38,6 +38,13 @@
 * Cp1) [떡볶이 떡 만들기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp1)  // max_element(), min_element(): 구간 안에서(배열이나 벡터 등) 최대, 최소값을 구하는 함수
 * Cp2) [정렬된 배열에서 특정 수의 개수 구하기](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/Binary%20Search/BScp2)  // bound 함수(lower_bound, upper_bound), 값이 특정 범위에 속하는 데이터 개수 구할 때 사용하는 문제 
   
+ <algorithm>의 binary_search(v.begin(), v.end(), target) => 반환 타입은 bool 타입으로, 있으면 1(true), 없으면 0(false)를 반환  
+하지만 있는지 없는지 true, false로 반환을 해줄 뿐 어느 인덱스에 있는지는 binary_search 함수로는 알 수 없음  
+=> 그래서 사용하는 것이 upper_bound, lower_bound 함수
+ex) arr: 1 3 4 4 7 10 10 10 13 17  
+lower_bound(arr, arr + 10, 10): 주어진 10보다 크거나 같으면서 제일 작은 값인 인덱스 5의 주소를 반환  
+upper_bound(arr, arr + 10, 10): 주어진 10값보다 크면서 제일 작은 값인 인덱스 8의  주소을 반환  
+  
 ### 6. Dynamic Programming (다이나믹 프로그래밍)
 * 기초: [탑다운 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciTopdown)  // 재귀함수 이용 , [바텀업 DP](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/fibonacciBottomup)  // 반복문 이용
 * Cp1) [개미 전사](https://github.com/Jung-kr/Algorithm-Basic-Problem/blob/main/DP/dpcp1.cpp)
